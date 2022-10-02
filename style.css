@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    background-color: rgb(44, 44, 182);
+}
+.container{
+    background-color: white;
+    padding: 40px 20px;
+    width: 500px;
+    border-radius: 5px;
+}
+.container .input-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.container .input-sec input{
+    width: 400px;
+    margin-right: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 7px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border: none;
+    outline: none;
+    border-bottom: 2px black solid;
+}
+.container .input-sec button{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: rgb(44, 44, 182);
+    border-radius: 16px;
+    padding: 6px 15px;
+    font-size: 20px;
+    color: white;
+}
+.result-sec{
+    display: none;
+}
+.result-sec .flag{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.result-sec .flag .flag-img{
+    height: 150px;
+    width: 250px;
+    border: 2px black solid;
+    
+}
+.result-sec .flag .flag-name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.result-sec .details .detail{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.result-sec .details .detail h3{
+    margin-right: 3px;
+}
